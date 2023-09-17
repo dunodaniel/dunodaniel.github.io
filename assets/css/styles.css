@@ -519,12 +519,8 @@ body.dark-theme {
   }
 
   .profile__perfil{
-    width: 120px;
-    height: 120px;
-  }
-
-  .profile__perfil img{
-    width: 98px;
+    width: 15rem;
+    height: 15rem;
   }
 
   .profile__profession {
