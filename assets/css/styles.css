@@ -86,7 +86,7 @@ img {
 /*=============== THEME ===============*/
 .change-theme {
   position: absolute;
-  width: 2rem;
+  width: 5rem;
   top: 1.5rem;
   right: 0;
   cursor: pointer;
