@@ -128,7 +128,7 @@ body.dark-theme {
 }
 
 .dark-theme .filters__content {
-  margin: 2rem 0 2.5rem;
+  margin: 2rem auto;
   background-color: var(--text-color);
   padding: .37rem;
   border-radius: .75rem;
