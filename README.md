@@ -1,18 +1,33 @@
-# Bem-vindo ao Meu Perfil do GitHub
+👋 Hello, I'm Daniel Rodrigues, a Back-End Developer based in São Paulo, Brazil. I'm currently studying Multiplatform Software Development at Fatec Itaquera and I'm passionate about algorithms, programming and data structures in Python, JavaScript, C and C#. I have practical experience in projects involving Django, Express and React, and I am currently exploring the wonders of FastAPI.
 
-Olá! Eu sou Daniel V.O. Rodrigues, um Web Developer com sede em São Paulo, SP. Estou empolgado para compartilhar meu trabalho e projetos aqui no GitHub.
+🚀 I am committed to continuous learning and am expanding my knowledge of Data Analysis through the Google Career Certificates program, where I am exploring spreadsheets, SQL, R programming and Tableau.
 
-## Sobre Mim
+🌐 Check out my portfolio at [dunodaniel.github.io](https://dunodaniel.github.io) and feel free to get in touch via email: this.daniel@outlook.com.
 
-- 👨‍💻 Atualmente, estou estudando Desenvolvimento de Software no Centro Estadual de Educação Tecnológica Paula Souza.
-- 🔍 Estou sempre explorando algoritmos, estruturas de dados e programação em várias linguagens, incluindo Python, JavaScript, C, C#, C++, MySQL e MongoDB.
-- ☁️ Também estou interessado em tecnologias em nuvem e desenvolvimento de sistemas embarcados com Arduino.
-- 🌐 Estou sempre procurando oportunidades de aprendizado e crescimento na área de desenvolvimento web e software.
-- 📧 Você pode entrar em contato comigo pelo email: this.daniel@outlook.com
-- 📱 Se preferir, você pode me chamar pelo WhatsApp: [+55 (11) 94822-2885](https://wa.me/5511948222885)
+# Experience
+- Teleperformance: Customer Service
+- Atento Brasil: Technical Customer Service Support
+- Otis Elevator Co.: Elevator Maintenance Electromechanical
 
-## Me Encontre Online
+# Academic education
+- Fatec Itaquera: Multiplatform Software Development, Software Engineering
+- ETEC Martin Luther King: Mechatronics Technician
+- ETEC Tiquatira: Chemistry Technician
+- Barão de Ramalho State School: High School
 
-- [GitHub](https://github.com/dunodaniel)
-- [LinkedIn](https://www.linkedin.com/in/danielvor/)
-- [Twitter](https://twitter.com/danielvor_)
+# Contact
+- 📱 +5511948222885 (Mobile)
+- 📧 this.daniel@outlook.com
+
+# Main Skills
+- Customer Service
+- Computer maintenance
+- Technical documentation
+- Technical Problem Solving
+
+# Languages
+- English (Professional)
+
+# Certifications
+- Microsoft Learn AI Skills Challenge
+- Fundamentals of Technical Support
