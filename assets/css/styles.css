@@ -292,6 +292,7 @@ body.dark-theme {
 }
 
 p.profile__info-description{
+  color: var(--title-color);
   text-align: center;
   padding: .5rem 0;
 }

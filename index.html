@@ -28,7 +28,7 @@
             <div class="profile__data">
                 <div class="profile__border">
                     <div class="profile__perfil">
-                        <img src="assets/img/perfil.jpg" alt="" />
+                        <img src="assets/img/perfil.png" alt="Foto de perfil do Daniel V.O. Rodrigues" />
                     </div>
                 </div>
 
@@ -55,12 +55,14 @@
                 <div class="profile__info-group">
                     <h3 class="profile__info-title">🌐 Welcome to my Portfolio!</h3>
                     <p class="profile__info-description">
-                        I'm studying Software Development, diving into <b>algorithms</b>, <b>data analytics</b>, and <b>programming</b>
+                        I'm studying Software Development, diving into <b>algorithms</b>, <b>data analytics</b>, and
+                        <b>programming</b>
                         in Python, JavaScript, C/C++, MySQL, and MongoDB.<br />
                     </p>
                     <p class="profile__info-description">
-                        🚀 I'm always looking for new challenges and collaboration opportunities. 
-                        If you're interested in technology, web development, or data analysis, feel free to explore my portfolio 
+                        🚀 I'm always looking for new challenges and collaboration opportunities.
+                        If you're interested in technology, web development, or data analysis, feel free to explore my
+                        portfolio
                         and get in touch. Let's create something extraordinary together!
                     </p>
                     <h3 class="profile__info-title">Thanks ✌</h3>
@@ -125,48 +127,50 @@
             const projectsContent = document.querySelector(".projects__content");
 
             data.forEach((repo) => {
-                const projectCard = document.createElement("article");
-                projectCard.className = "projects__card";
+                if (repo.name != 'dunodaniel' && repo.name != 'dunodaniel.github.io') {
+                    const projectCard = document.createElement("article");
+                    projectCard.className = "projects__card";
 
-                const projectImage = document.createElement("img");
-                projectImage.src = "assets/img/project1.jpg";
-                projectImage.alt = "Project Image";
-                projectImage.className = "projects__img";
+                    const projectImage = document.createElement("img");
+                    projectImage.src = "assets/img/project1.jpg";
+                    projectImage.alt = "Project Image";
+                    projectImage.className = "projects__img";
 
-                const projectModal = document.createElement("div");
-                projectModal.className = "projects__modal";
+                    const projectModal = document.createElement("div");
+                    projectModal.className = "projects__modal";
 
-                const projectSubtitle = document.createElement("span");
-                projectSubtitle.className = "projects__subtitle";
-                projectSubtitle.textContent = repo.description;
+                    const projectSubtitle = document.createElement("span");
+                    projectSubtitle.className = "projects__subtitle";
+                    projectSubtitle.textContent = repo.description;
 
-                const projectTitle = document.createElement("h3");
-                projectTitle.className = "projects__title";
-                projectTitle.textContent = repo.name;
+                    const projectTitle = document.createElement("h3");
+                    projectTitle.className = "projects__title";
+                    projectTitle.textContent = repo.name;
 
-                const siteLink = document.createElement("a");
-                if (repo.homepage) {
-                    siteLink.className = "projects__button button button__small";
-                    siteLink.href = repo.homepage;
-                    siteLink.target = "_blank";
-                    siteLink.textContent = "Site";
+                    const siteLink = document.createElement("a");
+                    if (repo.homepage) {
+                        siteLink.className = "projects__button button button__small";
+                        siteLink.href = repo.homepage;
+                        siteLink.target = "_blank";
+                        siteLink.textContent = "Site";
+                    }
+
+                    const githubLink = document.createElement("a");
+                    githubLink.className = "projects__button button button__small";
+                    githubLink.href = repo.html_url;
+                    githubLink.target = "_blank";
+                    githubLink.textContent = "Source";
+
+                    projectsContent.appendChild(projectCard);
+                    projectCard.appendChild(projectModal);
+                    projectCard.appendChild(projectImage);
+                    projectModal.appendChild(projectTitle);
+                    projectModal.appendChild(projectSubtitle);
+                    if (repo.homepage) {
+                        projectModal.appendChild(siteLink);
+                    }
+                    projectModal.appendChild(githubLink);
                 }
-
-                const githubLink = document.createElement("a");
-                githubLink.className = "projects__button button button__small";
-                githubLink.href = repo.html_url;
-                githubLink.target = "_blank";
-                githubLink.textContent = "Source";
-
-                projectsContent.appendChild(projectCard);
-                projectCard.appendChild(projectModal);
-                projectCard.appendChild(projectImage);
-                projectModal.appendChild(projectTitle);
-                projectModal.appendChild(projectSubtitle);
-                if (repo.homepage) {
-                    projectModal.appendChild(siteLink);
-                }
-                projectModal.appendChild(githubLink);
             });
         } catch (error) {
             console.error("Erro ao buscar repositórios do GitHub:", error);
